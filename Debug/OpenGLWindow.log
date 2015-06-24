@@ -1,0 +1,16 @@
+﻿Der Buildvorgang wurde am 24.06.2015 16:39:57 gestartet.
+     1>Projekt "C:\Development\opengl\codeprojekt\OPENGLTG_Src\Code\OpenGLWindow.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\GLUT /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OpenGLWindow.cpp
+         OpenGLWindow.cpp
+     1>c:\development\opengl\codeprojekt\opengltg_src\code\vkgllib.h(127): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211): Siehe Deklaration von 'fopen'
+     1>c:\development\opengl\codeprojekt\opengltg_src\code\vkgllib.h(169): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\OpenGLWindow.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\OpenGLWindow.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\OpenGLWindow.lib" /MACHINE:X86 /SAFESEH Debug\OpenGLWindow.obj
+         OpenGLWindow.vcxproj -> C:\Development\opengl\codeprojekt\OPENGLTG_Src\Code\Debug\OpenGLWindow.exe
+     1>Die Erstellung des Projekts "C:\Development\opengl\codeprojekt\OPENGLTG_Src\Code\OpenGLWindow.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:02.42
